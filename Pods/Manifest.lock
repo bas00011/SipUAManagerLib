@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.5.0)
+  - HanekeSwift (0.10.1)
+  - MSGraphSDK (0.10.1):
+    - MSGraphSDK/Common (= 0.10.1)
+    - MSGraphSDK/Extensions (= 0.10.1)
+    - MSGraphSDK/Implementations (= 0.10.1)
+    - MSGraphSDK/MSGraphCoreSDK (= 0.10.1)
+  - MSGraphSDK-NXOAuth2Adapter (0.9.2):
+    - MSGraphSDK-NXOAuth2Adapter/Auth (= 0.9.2)
+    - MSGraphSDK-NXOAuth2Adapter/Common (= 0.9.2)
+    - MSGraphSDK-NXOAuth2Adapter/Extensions (= 0.9.2)
+  - MSGraphSDK-NXOAuth2Adapter/Auth (0.9.2):
+    - MSGraphSDK-NXOAuth2Adapter/Common
+    - MSGraphSDK/Common
+    - MSGraphSDK/Implementations
+    - NXOAuth2Client (~> 1.2.8)
+  - MSGraphSDK-NXOAuth2Adapter/Common (0.9.2)
+  - MSGraphSDK-NXOAuth2Adapter/Extensions (0.9.2):
+    - MSGraphSDK-NXOAuth2Adapter/Common
+  - MSGraphSDK/Common (0.10.1)
+  - MSGraphSDK/Extensions (0.10.1):
+    - MSGraphSDK/Implementations
+    - MSGraphSDK/MSGraphCoreSDK
+  - MSGraphSDK/Implementations (0.10.1):
+    - MSGraphSDK/Common
+  - MSGraphSDK/MSGraphCoreSDK (0.10.1):
+    - MSGraphSDK/Common
+  - NXOAuth2Client (1.2.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`, branch `feature/swift-3`)
+  - MSGraphSDK
+  - MSGraphSDK-NXOAuth2Adapter
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: feature/swift-3
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 2f6d87f1f725d204d85cb34492e8c399cd5a200f
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  MSGraphSDK: 3c43eb632ca969593f1bdd5612b573e436bd3283
+  MSGraphSDK-NXOAuth2Adapter: 2b6db8cc771d4f4f269091bc4280c405b3c3e4a4
+  NXOAuth2Client: 98c4d4c594edd2b289cfc34a8928653e1dab7adf
+
+PODFILE CHECKSUM: d407720f74bcd1008512a5bfd8d4059b432211e5
+
+COCOAPODS: 1.3.1

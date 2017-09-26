@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '10.0'
+use_frameworks!
+
+target 'SipUAManagerLib' do
+# Comment this line if you're not using Swift and don't want to use dynamic frameworks
+# use_frameworks!
+
+# Pods for GoodWox
+pod 'MSGraphSDK'
+pod 'MSGraphSDK-NXOAuth2Adapter'
+pod 'Alamofire'
+pod "HanekeSwift", :git => 'https://github.com/Haneke/HanekeSwift.git', :branch => 'feature/swift-3'
+end
